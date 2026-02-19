@@ -1,26 +1,24 @@
-Este ejemplo utiliza la herramienta visual wxFormBuilder (WXFB) para "dibujar" 
-las interfases. Se incluye en el proyecto ZinjaI un proyecto WXFB (wxfb_project.fbp),
-con una ventana definida a modo de ejemplo (WinExample.*). 
+Sistema de Gesti√≥n de Biblioteca (C++)
+Este proyecto es una aplicaci√≥n de escritorio dise√±ada para gestionar el inventario de libros y el registro de usuarios en una biblioteca. Fue desarrollado como parte de mis estudios en la UNL (Ingenieria Inform√°tica).
 
-Los archivos wxfb_project.cpp y wxfb_project.h se generan autom·ticamente mediante 
-WXFB. Estos archivos definen clases correspondientes a las ventanas del proyecto. 
-Estas clases crean y acomodan todos los controles, y definen metodos virtuales para 
-cada uno de los eventos. El usuario no debe editar estos archivos; debe generar sus 
-propias ventanas finales heredando de estas clases y sobreescribiendo los metodos 
-correspondientes a los eventos de interÈs. El ejemplo es la clase WinExample, que 
-hereda de la clase wxfbExample definida en el proyecto WXFB.
+Interfaz Gr√°fica: Dise√±ada con wxFormBuilder para una experiencia de usuario intuitiva.
 
-Para editar las ventanas bases abra el archivo wxfb_project.fbp (haciendo doble 
-click sobre el mismo en el arbol de proyectos, categorÌa Otros). ZinjaI detectar· los 
-cambios en los componentes WXFB y regenerar· el cÛdigo de las clases correspondientes 
-autom·ticamente al recibir el foco.
+Persistencia de Datos: Implementaci√≥n de manejo de archivos binarios (.dat) y de texto para almacenar informaci√≥n de libros y personas de forma permanente.
 
-Puede acceder a la documentaciÛn acerca de las funciones y clases de wxWidgets mediante 
-la opciÛn "Ayuda de wxWidgets" del submen˙ "DiseÒar Interfases" del men˙ "Herramientas".
+L√≥gica de Programaci√≥n: Uso de Programaci√≥n Orientada a Objetos (POO) en C++.
+IDE: ZinJai.
+
+Librer√≠as: wxWidgets (configurado a trav√©s de wxFormBuilder).
+
+Clonar el repositorio.
+
+Abrir el archivo MiProyecto.zpr en ZinJai.
+
+Compilar y ejecutar.
 
 wxFormBuilder no se incluye en ZinjaI, por lo que debe instalarlo por 
-separado si a˙n no lo hizo. La ayuda de wxWidgets solo se incluye
+separado. La ayuda de wxWidgets solo se incluye
 si ha instalado el complemento propio de la biblioteca. Se puede acceder 
-r·pidamente a ella con la opciÛn "Referencia wxWidgets..." del submenu 
-"DiseÒar Interfases" del menu "Herramientas".
+r√°pidamente a ella con la opci√≥n "Referencia wxWidgets..." del submenu 
+"Dise√±ar Interfases" del menu "Herramientas".
 
